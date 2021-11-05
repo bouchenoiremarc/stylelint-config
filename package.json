@@ -10,7 +10,8 @@
     "config"
   ],
   "files": [
-    "index.js"
+    "index.js",
+    "scss.js"
   ],
   "main": "index.js",
   "prettier": "@bouchenoiremarc/prettier-config",
