@@ -9,6 +9,7 @@ module.exports = {
   defaultSeverity: "warning",
   rules: {
     "at-rule-no-unknown": null,
-    "scss/at-rule-no-unknown": true
+    "scss/at-rule-no-unknown": true,
+    "scss/no-global-function-names": null
   }
 }
