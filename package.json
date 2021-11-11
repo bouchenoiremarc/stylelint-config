@@ -42,6 +42,7 @@
     "stylelint": "^14.0.1"
   },
   "dependencies": {
+    "postcss": "^8.3.11",
     "stylelint-config-css-modules": "^2.3.0",
     "stylelint-config-idiomatic-order": "^8.1.0",
     "stylelint-config-prettier": "^9.0.3",
