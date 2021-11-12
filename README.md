@@ -8,13 +8,13 @@
 
 #### Yarn
 
-```sh
+```bash
 yarn add -D stylelint @bouchenoiremarc/stylelint-config
 ```
 
 #### npm
 
-```sh
+```bash
 npm install --save-dev stylelint @bouchenoiremarc/stylelint-config
 ```
 
