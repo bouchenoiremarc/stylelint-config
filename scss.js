@@ -1,12 +1,12 @@
 module.exports = {
-  plugins: ["stylelint-scss"],
+  defaultSeverity: "warning",
   extends: [
     "stylelint-config-standard-scss",
     "stylelint-config-css-modules",
     "stylelint-config-idiomatic-order",
     "stylelint-config-prettier"
   ],
-  defaultSeverity: "warning",
+  plugins: ["stylelint-scss"],
   rules: {
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": true,

@@ -18,7 +18,10 @@
   "lint-staged": {
     "**/*.js": [
       "eslint --fix",
-      "prettier --write"
+      "prettier --ignore-path .eslintignore --write"
+    ],
+    "**/*.{json,md,yml}": [
+      "prettier --ignore-path .eslintignore --write"
     ]
   },
   "husky": {
@@ -27,12 +30,17 @@
     }
   },
   "scripts": {
-    "lint": "eslint '**/*.js' --fix",
+    "lint": "yarn lint:eslint && yarn lint:prettier",
+    "lint:eslint": "eslint '**/*.js' --fix",
+    "lint:prettier": "prettier '**/*.{js,json,md,yml}' --ignore-path .eslintignore --write --loglevel silent",
     "release": "yarn login && np --no-tests"
   },
   "devDependencies": {
     "@bouchenoiremarc/prettier-config": "^1.1.0",
     "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
     "husky": "4.3.8",
     "lint-staged": "^12.1.2",
     "np": "^7.6.0",
