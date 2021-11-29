@@ -2,7 +2,8 @@
 
 🎀 My personal Stylelint configurations.
 
-[![npm](https://img.shields.io/npm/v/@bouchenoiremarc/stylelint-config?color=%230cf)](https://www.npmjs.com/package/@bouchenoiremarc/stylelint-config) [![license](https://img.shields.io/github/license/bouchenoiremarc/stylelint-config?color=%2385f)](https://github.com/bouchenoiremarc/stylelint-config/blob/main/LICENSE)
+[![npm](https://img.shields.io/npm/v/@bouchenoiremarc/stylelint-config?color=%230cf)](https://www.npmjs.com/package/@bouchenoiremarc/stylelint-config)
+[![license](https://img.shields.io/github/license/bouchenoiremarc/stylelint-config?color=%2385f)](https://github.com/bouchenoiremarc/stylelint-config/blob/main/LICENSE)
 
 ## Installation
 
