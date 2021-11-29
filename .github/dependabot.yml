@@ -7,4 +7,25 @@ updates:
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-patch"]
+      - dependency-name: "eslint"
+        update-types:
+          ["version-update:semver-patch", "version-update:semver-minor"]
+      - dependency-name: "eslint-config-prettie"
+        update-types:
+          ["version-update:semver-patch", "version-update:semver-minor"]
+      - dependency-name: "eslint-plugin-prettier"
+        update-types:
+          ["version-update:semver-patch", "version-update:semver-minor"]
+      - dependency-name: "lint-staged"
+        update-types:
+          ["version-update:semver-patch", "version-update:semver-minor"]
+      - dependency-name: "np"
+        update-types:
+          ["version-update:semver-patch", "version-update:semver-minor"]
+      - dependency-name: "prettier"
+        update-types:
+          ["version-update:semver-patch", "version-update:semver-minor"]
+      - dependency-name: "stylelint"
+        update-types:
+          ["version-update:semver-patch", "version-update:semver-minor"]
       - dependency-name: "husky"
