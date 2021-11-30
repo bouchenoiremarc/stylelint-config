@@ -1,5 +1,5 @@
 {
-  "name": "@bouchenoiremarc/stylelint-config",
+  "name": "@marcbouchenoire/stylelint-config",
   "version": "1.2.0",
   "description": "My personal Stylelint configurations.",
   "author": "Marc Bouchenoire",
@@ -13,8 +13,11 @@
     "index.js",
     "scss.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
-  "prettier": "@bouchenoiremarc/prettier-config",
+  "prettier": "@marcbouchenoire/prettier-config",
   "lint-staged": {
     "**/*.js": [
       "eslint --fix",
@@ -36,7 +39,7 @@
     "release": "yarn login && np --no-tests"
   },
   "devDependencies": {
-    "@bouchenoiremarc/prettier-config": "^1.1.0",
+    "@marcbouchenoire/prettier-config": "^1.1.0",
     "eslint": "^8.3.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
