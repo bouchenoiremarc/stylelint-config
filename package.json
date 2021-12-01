@@ -4,7 +4,7 @@
   "description": "My personal Stylelint configurations.",
   "author": "Marc Bouchenoire",
   "license": "MIT",
-  "repository": "https://github.com/bouchenoiremarc/stylelint-config",
+  "repository": "https://github.com/marcbouchenoire/stylelint-config",
   "keywords": [
     "stylelint",
     "config"
