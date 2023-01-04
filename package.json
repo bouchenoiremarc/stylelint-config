@@ -40,22 +40,22 @@
   },
   "devDependencies": {
     "@marcbouchenoire/prettier-config": "^1.1.0",
-    "eslint": "^8.18.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.0.0",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "husky": "4.3.8",
     "nano-staged": "^0.8.0",
-    "np": "^7.6.1",
-    "prettier": "^2.7.1",
-    "stylelint": "^14.9.1"
+    "np": "^7.6.3",
+    "prettier": "^2.8.1",
+    "stylelint": "^14.16.1"
   },
   "dependencies": {
-    "postcss": "^8.4.14",
+    "postcss": "^8.4.20",
     "stylelint-config-css-modules": "^4.1.0",
     "stylelint-config-idiomatic-order": "^9.0.0",
-    "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard": "^26.0.0",
-    "stylelint-config-standard-scss": "^5.0.0"
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-config-standard-scss": "^6.1.0"
   },
   "peerDependencies": {
     "prettier": ">=2.0.0",
