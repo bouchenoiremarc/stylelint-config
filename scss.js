@@ -1,15 +1,24 @@
+const shared = require("./shared")
+
 module.exports = {
   defaultSeverity: "warning",
-  extends: [
-    "stylelint-config-standard-scss",
-    "stylelint-config-css-modules",
-    "stylelint-config-idiomatic-order",
-    "stylelint-config-prettier"
-  ],
-  plugins: ["stylelint-scss"],
+  extends: [...shared.extends, "stylelint-config-standard-scss"],
+  plugins: [...shared.plugins, "stylelint-scss"],
   rules: {
+    ...shared.rules,
     "at-rule-no-unknown": null,
-    "scss/at-rule-no-unknown": true,
-    "scss/no-global-function-names": null
-  }
+    "scss/at-rule-no-unknown": [
+      true,
+      {
+        ignoreAtRules: ["tailwind", "apply", "layer"]
+      }
+    ]
+  },
+  "function-no-unknown": null,
+  "scss/function-no-unknown": [
+    true,
+    {
+      ignoreFunctions: ["screen", "theme"]
+    }
+  ]
 }

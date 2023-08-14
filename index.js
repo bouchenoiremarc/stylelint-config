@@ -1,25 +1,22 @@
+const shared = require("./shared")
+
 module.exports = {
   defaultSeverity: "warning",
-  extends: [
-    "stylelint-config-standard",
-    "stylelint-config-css-modules",
-    "stylelint-config-idiomatic-order",
-    "stylelint-config-prettier"
-  ],
+  extends: [...shared.extends, "stylelint-config-standard"],
+  plugins: shared.plugins,
   rules: {
+    ...shared.rules,
     "at-rule-no-unknown": [
       true,
       {
         ignoreAtRules: ["tailwind", "apply", "layer"]
       }
     ],
-    "declaration-block-trailing-semicolon": null,
     "function-no-unknown": [
       true,
       {
         ignoreFunctions: ["screen", "theme"]
       }
-    ],
-    "no-descending-specificity": null
+    ]
   }
 }
