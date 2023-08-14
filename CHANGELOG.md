@@ -4,4 +4,4 @@
 
 ### Major Changes
 
-- e3f901a: - Upgrade dependencies
+- e3f901a: Upgrade dependencies
