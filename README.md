@@ -7,14 +7,6 @@
 
 ## Installation
 
-#### Yarn
-
-```bash
-yarn add -D stylelint @marcbouchenoire/stylelint-config
-```
-
-#### npm
-
 ```bash
 npm install --save-dev stylelint @marcbouchenoire/stylelint-config
 ```
